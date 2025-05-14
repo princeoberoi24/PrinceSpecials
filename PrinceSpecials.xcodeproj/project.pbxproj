@@ -24,6 +24,8 @@
 		0459077D2DBE6C9500E9D93F /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459077C2DBE6C9500E9D93F /* CartView.swift */; };
 		0459077F2DBE6D2500E9D93F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459077E2DBE6D2500E9D93F /* LoginView.swift */; };
 		045907812DBE6D8D00E9D93F /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045907802DBE6D8D00E9D93F /* RegisterView.swift */; };
+		04DE66502DD4A7D200A23E5F /* extraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE664F2DD4A7D100A23E5F /* extraView.swift */; };
+		04DE66522DD4B38A00A23E5F /* extraView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE66512DD4B38A00A23E5F /* extraView2.swift */; };
 		2A2E023DC30ADB3F3B05EBC4 /* Pods_PrinceSpecials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B605D999662A239C6066972 /* Pods_PrinceSpecials.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +67,8 @@
 		0459077C2DBE6C9500E9D93F /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		0459077E2DBE6D2500E9D93F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		045907802DBE6D8D00E9D93F /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		04DE664F2DD4A7D100A23E5F /* extraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extraView.swift; sourceTree = "<group>"; };
+		04DE66512DD4B38A00A23E5F /* extraView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extraView2.swift; sourceTree = "<group>"; };
 		150F463A87A56845AC1F16D6 /* Pods-PrinceSpecials.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrinceSpecials.debug.xcconfig"; path = "Target Support Files/Pods-PrinceSpecials/Pods-PrinceSpecials.debug.xcconfig"; sourceTree = "<group>"; };
 		2B605D999662A239C6066972 /* Pods_PrinceSpecials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrinceSpecials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9E96BADBCD3863F783C3D3 /* Pods-PrinceSpecials.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrinceSpecials.release.xcconfig"; path = "Target Support Files/Pods-PrinceSpecials/Pods-PrinceSpecials.release.xcconfig"; sourceTree = "<group>"; };
@@ -176,6 +180,8 @@
 				045907432DBE6AC000E9D93F /* ContentView.swift */,
 				0459077A2DBE6C4900E9D93F /* ProductDetailView.swift */,
 				0459077C2DBE6C9500E9D93F /* CartView.swift */,
+				04DE664F2DD4A7D100A23E5F /* extraView.swift */,
+				04DE66512DD4B38A00A23E5F /* extraView2.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -371,8 +377,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DE66522DD4B38A00A23E5F /* extraView2.swift in Sources */,
 				0459077D2DBE6C9500E9D93F /* CartView.swift in Sources */,
 				0459074E2DBE6AC300E9D93F /* PrinceSpecials.xcdatamodeld in Sources */,
+				04DE66502DD4A7D200A23E5F /* extraView.swift in Sources */,
 				045907742DBE6B8F00E9D93F /* Cart.swift in Sources */,
 				0459074B2DBE6AC300E9D93F /* Persistence.swift in Sources */,
 				045907762DBE6BC600E9D93F /* UserAuthentication.swift in Sources */,

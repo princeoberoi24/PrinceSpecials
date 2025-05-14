@@ -21,7 +21,7 @@ TextField("Username", text: $username) .textFieldStyle(RoundedBorderTextFieldSty
 
 SecureField("Password", text: $password) .textFieldStyle(RoundedBorderTextFieldStyle()) .padding(.top,10) .frame(width:360)
 
-Button(action: { auth.register(username: username, password: password) }) { Text("Register") .frame(maxWidth: .infinity) .padding() .background(Color.blue) .foregroundColor(.white) .cornerRadius(30) } .padding() } .navigationTitle("Register") .padding() .frame(width:430) } } }
+Button(action: { auth.register(username: username, password: password) }) { Text("Register") .frame(maxWidth: .infinity) .padding() .background(Color.blue) .foregroundColor(.white) .cornerRadius(30) } .padding() } .navigationTitle("Register") .padding() .frame(width:430) }.padding(.top, -80) } } 
 
 struct RegisterView_Previews:
     PreviewProvider{
